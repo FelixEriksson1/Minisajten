@@ -1,0 +1,128 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body {
+    background: rgb(61, 60, 60);
+    min-height: 75vh;
+
+}
+@media screen and (max-width: 992px) {}
+    footer {
+        margin-top: -100px;
+      
+    }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky
+{
+    padding: 5px 100px;
+    background: #fff;
+
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+
+}
+
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    
+    
+  }
+  
+  .flex-container > div {
+    margin-left: 00px;  
+    
+}
+.flex-item{
+    margin-top: 20px;
+    
+    
+}
+.logo img{
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #606060;
+    position: sticky;
+    top: 100%;
+}
+.footer ul{
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li a{
+    display: inline-block;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+h1 {
+    color: #fff;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: -75px;
+}   

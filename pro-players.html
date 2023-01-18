@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sticky test</title>
+    <link rel="Stylesheet" href="pro-players.css" />
+  </head>
+<body>
+    <div class="proffsvideor">
+        <img
+        class="bild"
+        src="https://www.financial-world.org/imge/17804/m0nesy-in-the-7th-place-of-the-best-players.webp"
+        alt="M0nesy"
+        />
+        <video
+        class="video"
+        src="MONESY SUPERSTAR CLUTCH 1V4 _ 2022 THE BEST PLAY.mp4"
+        alt="Video highlight M0nesy"
+        loop
+        onmouseover="this.play();"
+        onmouseout="this.pause();"
+        ></video>    
+    <div class="container">
+      <h1>M0nesy</h1>
+      <p>Ilya "M0nesy" Osipov är en rysk professionell csgo spelare som under 2022 som 17 åring debuterade för organistionen G2 Esports. Under sitt första år som pro så visade han på skicklighet på nivån lik de vuxna spelarna som varit med i flera år innan. Hans prestationer gav honom priset för 7de bästa spelaren under 2022 av hltv.org samt fick han priset för "Highlight of the Year" (Hovera över bilden för att se, Kan behövas klicka någonstans på sidan för att funka ibland) </p>
+      <div class="item"></div>
+    </div>
+    <header>
+      <a class="logo" href="Startsida.html">
+      <img src="https://i.ibb.co/x72GKsT/Mitt-projekt.png" />
+      </a>
+      <ul>
+        <li><a href="future-event.html">Future Events</a></li>
+        <li><a href="pro-players.html">Pro Players</a></li>
+      </ul>
+    </header>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY);
+      });
+    </script>
+  </body>
+</html>
